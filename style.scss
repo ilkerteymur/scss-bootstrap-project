@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background: linear-gradient(112deg, rgb(50, 61, 61) 10%,
+     rgb(148, 148, 194) 72%) !important;
+    
+    
+
+
+    .nav-item a:hover{
+        transform: scale(1.1);
+        transition: ease .5s;
+        color: grey !important;
+    }
+}
+
+.carousel{
+    position: relative;
+    img{
+        border-radius: 50%;
+        height: 450px;
+        object-fit: cover;
+        opacity: 0.7;
+    }
+
+
+    &-caption{
+        position: absolute;
+        top: 50%;
+
+        h5,p{
+            text-shadow: 2px 2px 4px black;
+        }
+
+    }
+}
+
+.card{
+    &:hover{
+        box-shadow: 2px 2px 15px gray;
+        transform: scale(1.1);
+        transition: ease .7s;
+    }
+}
+
+/*BLOG - TITLE*/
+
+.title{
+    background: linear-gradient(115deg, rgb(34, 34, 34) 7.3%, rgb(0, 40, 60) 51.6%, rgb(0, 143, 213) 93.4%);
+
+        .breadcrumb-item::before{
+            color: white !important;
+        }
+}
+
+.accordion{
+    background: linear-gradient(to left , rgba(77, 126, 190, 0.767),rgba(142, 164, 206, 0.623));}
+
+

@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(112deg, rgb(50, 61, 61) 10%, rgb(148, 148, 194) 72%) !important;
+}
+.navbar .nav-item a:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: grey !important;
+}
+
+.carousel {
+  position: relative;
+}
+.carousel img {
+  border-radius: 50%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.7;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+.carousel-caption h5, .carousel-caption p {
+  text-shadow: 2px 2px 4px black;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 15px gray;
+  transform: scale(1.1);
+  transition: ease 0.7s;
+}
+
+/*BLOG - TITLE*/
+.title {
+  background: linear-gradient(115deg, rgb(34, 34, 34) 7.3%, rgb(0, 40, 60) 51.6%, rgb(0, 143, 213) 93.4%);
+}
+.title .breadcrumb-item::before {
+  color: white !important;
+}
+
+.accordion {
+  background: linear-gradient(to left, rgba(77, 126, 190, 0.767), rgba(142, 164, 206, 0.623));
+}/*# sourceMappingURL=style.css.map */
